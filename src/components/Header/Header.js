@@ -3,13 +3,10 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container" style={{padding: 0}}>
+    <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
-          <img
-            src="/logo.png"
-            alt="logo"
-          />
+          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">

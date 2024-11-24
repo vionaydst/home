@@ -19,7 +19,8 @@
     "react-scroll": "^1.8.9",
     "react-type-animation": "^3.0.1",
     "styled-components": "^5.3.11",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yet-another-react-lightbox": "^3.21.7"
   },
   "scripts": {
     "start": "react-scripts start",

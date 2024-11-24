@@ -9,14 +9,22 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+
 function ProjectCard() {
+  const [open, setOpen] = React.useState(false);
+
   return (
     <>
       {ProjectList.map((list, index) => (
         <ScrollAnimation animateIn="fadeInLeft" key={index}>
           <Card>
             <CardLeft>
-              <img src={list.img} alt={list.name} />
+              <img
+                src={`${process.env.PUBLIC_URL}/${list.img}`}
+                alt={list.name}
+              />
             </CardLeft>
             <CardRight>
               <h4>{list.title}</h4>
@@ -38,20 +46,35 @@ function ProjectCard() {
                   </a>
                 )}
                 {list.demo_url.length > 0 && (
-                  <a
+                  // <a
+                  //   className="btn PrimaryBtn btn-shadow"
+                  //   href={list.demo_url}
+                  //   target="_blank"
+                  //   rel="noopener noreferrer"
+                  // >
+                  //   Demo ➜
+                  // </a>
+                  <button
                     className="btn PrimaryBtn btn-shadow"
-                    href={list.demo_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    type="button"
+                    onClick={() => setOpen(true)}
                   >
                     Demo ➜
-                  </a>
+                  </button>
                 )}
               </BtnGroup>
             </CardRight>
           </Card>
         </ScrollAnimation>
       ))}
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={[
+          { src: "/ykte-feature-graphic.png" },
+          { src: "/renr-responsive.png" },
+        ]}
+      />
     </>
   );
 }

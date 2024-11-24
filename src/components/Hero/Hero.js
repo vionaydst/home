@@ -89,7 +89,10 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
-              <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
+              <Image
+                src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`}
+                alt="man-svgrepo"
+              />
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
@@ -98,7 +101,10 @@ function Hero() {
             <ScrollDown to="projects" id="scrollDown">
               <ScrollLink>
                 Scroll down
-                <img src="/scroll-down.svg" alt="scroll-down" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/scroll-down.svg`}
+                  alt="scroll-down"
+                />
               </ScrollLink>
             </ScrollDown>
           </ScrollAnimation>
