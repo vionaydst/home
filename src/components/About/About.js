@@ -23,43 +23,41 @@ function About() {
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Viona Yudistia</strong>. I'm originally
-              from Brazil and have been living in Canada for the past three
-              years. During my time here, I gained valuable experience through
-              various entry-level positions, which greatly enhanced my work
-              ethic, communication skills, and adaptability.
+              Hi! I'm Viona, a passionate self-taught UI/UX designer with a
+              background in the Food and Beverage (F&B) industry. Transitioning
+              into design was driven by my love for creating meaningful,
+              user-friendly experiences.
             </ScrollAnimation>
 
             <br />
             <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              My journey into the world of technology began with a strong
-              passion for problem-solving, which led me to pursue the Computer
-              Systems Technology program. Despite its challenges, I remained
-              determined and forged lasting friendships that supported me
-              throughout this demanding program. Throughout my studies at BCIT,
-              I had the opportunity to engage in fascinating projects. Notably,
-              I contributed to the development of the RENR Safety App and
-              MyMind, projects that garnered recognition from my colleagues,
-              instructors, and clients alike.
+              Although I don't hold a formal degree, my hands-on experience as a
+              freelance designer speaks volumes. I've worked on diverse
+              projects, designing websites and mobile applications using Figma.
+              My approach focuses on blending creativity and functionality to
+              solve real-world problems while ensuring visually appealing
+              designs.
             </ScrollAnimation>
 
             <br />
             <br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective
-              has been an incredibly rewarding and unique experience for me. I
-              am eager to continue exploring exciting projects in the future,
-              with a particular interest in web development and cross-platform
-              mobile development.
+              My journey from F&B to UI/UX design has equipped me with a strong
+              understanding of user behavior, teamwork, and adaptability. I'm
+              constantly learning and staying updated with the latest trends to
+              craft impactful designs that users love.
               <div className="tagline2">
-                I have become confident using the following technologies:
+                Let’s create something amazing together!
               </div>
+              {/* <div className="tagline2">
+                I have become confident using the following technologies:
+              </div> */}
             </ScrollAnimation>
 
-            <Technologies>
+            {/* <Technologies>
               {stackList.map((stack, index) => (
                 <ScrollAnimation animateIn="fadeInLeft" key={index}>
                   <Tech key={index} className="tech">
@@ -71,7 +69,7 @@ function About() {
                   </Tech>
                 </ScrollAnimation>
               ))}
-            </Technologies>
+            </Technologies> */}
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
-      <div className="Container"/>
+      <div className="Container" />
     </FooterSection>
   );
 }

@@ -1,17 +1,17 @@
 // --------------------------------------- Project List
 export const ProjectList = [
-  {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
-    description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
-  },
+  // {
+  //   img: "/ykte-feature-graphic.png",
+  //   title: "YouKnowTheEnding",
+  //   description:
+  //     "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
+  //   tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+  //   github_url: "",
+  //   demo_url: "https://youknowtheending.net/",
+  // },
   {
     img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    title: "Limelight Movement",
     description:
       "A safety application for the Renewable Resources Dept. of BCIT",
     tech_stack: ["React", "Firebase"],
@@ -20,7 +20,7 @@ export const ProjectList = [
   },
   {
     img: "/mymind-responsive.png",
-    title: "MyMind",
+    title: "Dashboard Limelight Movement",
     description:
       "An app where users can purchase online therapy sessions and chat with their therapists.",
     tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
@@ -29,7 +29,7 @@ export const ProjectList = [
   },
   {
     img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    title: "Gaia Studio",
     description:
       "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
     tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
@@ -37,8 +37,17 @@ export const ProjectList = [
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/pokedex-responsive.png",
+    title: "Dashboard Gaia Studio",
+    description:
+      "An app to detect if a job posting is a scam or not using its description.",
+    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
+    github_url: "https://github.com/salesp07/JobDetectNode",
+    demo_url: "https://jobdetective.onrender.com/",
+  },
+  {
+    img: "/pokedex-responsive.png",
+    title: "E-learning cipta app",
     description:
       "An app to detect if a job posting is a scam or not using its description.",
     tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
