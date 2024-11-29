@@ -6,7 +6,7 @@ const Header = ({ toggle }) => {
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
-          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="logo" />
+          <img src={`${process.env.PUBLIC_URL}/pio.png`} alt="logo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
@@ -22,7 +22,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://linkedin.com/in/pedro-sales-muniz"
+            href="https://www.linkedin.com/in/vionayudistia/"
             target="_blank"
             rel="noopener noreferrer"
           >

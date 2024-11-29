@@ -17,7 +17,8 @@ function About() {
         <div className="BigCard">
           <ScrollAnimation animateIn="fadeInLeft">
             <Image
-              src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`}
+              src={`${process.env.PUBLIC_URL}/pio.png`}
+              // src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`}
               alt="man-svgrepo"
             />
           </ScrollAnimation>

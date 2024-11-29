@@ -84,8 +84,9 @@ function Hero() {
           </HeroLeft>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
-              <Image
-                src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`}
+              <img
+                // src={`${process.env.PUBLIC_URL}/man-svgrepo-com.svg`}
+                src={`${process.env.PUBLIC_URL}/pio.png`}
                 alt="man-svgrepo"
               />
             </ScrollAnimation>

@@ -12,46 +12,43 @@ export const ProjectList = [
   {
     img: "/renr-responsive.png",
     title: "Limelight Movement",
-    description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
+    description: "Design website limelight movement",
+    tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
   },
   {
     img: "/mymind-responsive.png",
     title: "Dashboard Limelight Movement",
-    description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
+    description: "Design dashboard site limelight movement",
+    tech_stack: ["Figma"],
+    github_url: "",
     demo_url: "https://mymindweb.vercel.app/",
   },
   {
     img: "/pokedex-responsive.png",
     title: "Gaia Studio",
-    description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
+    description: "Design website Gaia Studio",
+    tech_stack: ["Figma"],
+    github_url: "",
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
     img: "/pokedex-responsive.png",
     title: "Dashboard Gaia Studio",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
+    description: "Design dashboard site Gaia Studio",
+
+    tech_stack: ["Figma"],
+    github_url: "",
     demo_url: "https://jobdetective.onrender.com/",
   },
   {
     img: "/pokedex-responsive.png",
     title: "E-learning cipta app",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
+    description: "Design app E-learning cipta",
+
+    tech_stack: ["Figma"],
+    github_url: "",
     demo_url: "https://jobdetective.onrender.com/",
   },
 ];

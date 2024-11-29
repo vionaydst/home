@@ -58,14 +58,14 @@ function FixSocialIcon() {
         <ul>
           <li className="item">
             <a
-              href="https://www.linkedin.com/in/pedro-sales-muniz"
+              href="https://www.linkedin.com/in/vionayudistia/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin />
             </a>
           </li>
-          <li className="item">
+          {/* <li className="item">
             <a
               href="https://github.com/salesp07"
               target="_blank"
@@ -73,7 +73,7 @@ function FixSocialIcon() {
             >
               <FaGithub />
             </a>
-          </li>
+          </li> */}
         </ul>
       </ScrollAnimation>
     </SocialContainer>
