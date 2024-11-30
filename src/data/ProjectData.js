@@ -1,55 +1,54 @@
 // --------------------------------------- Project List
 export const ProjectList = [
-  // {
-  //   img: "/ykte-feature-graphic.png",
-  //   title: "YouKnowTheEnding",
-  //   description:
-  //     "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-  //   tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-  //   github_url: "",
-  //   demo_url: "https://youknowtheending.net/",
-  // },
   {
+    id: "limelight",
     img: "/renr-responsive.png",
     title: "Limelight Movement",
     description: "Design website limelight movement",
     tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://renr-bcit.web.app/",
+    images: 2,
   },
   {
+    id: "dashboardlimelight",
     img: "/mymind-responsive.png",
     title: "Dashboard Limelight Movement",
     description: "Design dashboard site limelight movement",
     tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://mymindweb.vercel.app/",
+    images: 2,
   },
   {
+    id: "gaiastudio",
     img: "/pokedex-responsive.png",
     title: "Gaia Studio",
     description: "Design website Gaia Studio",
     tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://pokedex-salesp07.netlify.app/",
+    images: 8,
   },
   {
+    id: "dashboardgaiastudio",
     img: "/pokedex-responsive.png",
     title: "Dashboard Gaia Studio",
     description: "Design dashboard site Gaia Studio",
-
     tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://jobdetective.onrender.com/",
+    images: 6,
   },
   {
+    id: "elearningcipta",
     img: "/pokedex-responsive.png",
     title: "E-learning cipta app",
     description: "Design app E-learning cipta",
-
     tech_stack: ["Figma"],
     github_url: "",
     demo_url: "https://jobdetective.onrender.com/",
+    images: 5,
   },
 ];
 

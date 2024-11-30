@@ -14,6 +14,7 @@ import "yet-another-react-lightbox/styles.css";
 
 function ProjectCard() {
   const [open, setOpen] = React.useState(false);
+  const [selected, setSelected] = React.useState(ProjectList[0]);
 
   return (
     <>
@@ -22,7 +23,7 @@ function ProjectCard() {
           <Card>
             <CardLeft>
               <img
-                src={`${process.env.PUBLIC_URL}/${list.img}`}
+                src={`${process.env.PUBLIC_URL}/projects/${list.id}/mockup.png`}
                 alt={list.name}
               />
             </CardLeft>
@@ -42,22 +43,17 @@ function ProjectCard() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Github
+                    Figma
                   </a>
                 )}
                 {list.demo_url.length > 0 && (
-                  // <a
-                  //   className="btn PrimaryBtn btn-shadow"
-                  //   href={list.demo_url}
-                  //   target="_blank"
-                  //   rel="noopener noreferrer"
-                  // >
-                  //   Demo ➜
-                  // </a>
                   <button
                     className="btn PrimaryBtn btn-shadow"
                     type="button"
-                    onClick={() => setOpen(true)}
+                    onClick={() => {
+                      setSelected(list);
+                      setOpen(true);
+                    }}
                   >
                     Demo ➜
                   </button>
@@ -70,10 +66,19 @@ function ProjectCard() {
       <Lightbox
         open={open}
         close={() => setOpen(false)}
-        slides={[
-          { src: "/ykte-feature-graphic.png" },
-          { src: "/renr-responsive.png" },
-        ]}
+        slides={
+          Array.from({ length: selected.images }).map((_, item) => {
+            return {
+              src: `${process.env.PUBLIC_URL}/projects/${selected.id}/${
+                item + 1
+              }.png`,
+            };
+          })
+
+          //   [
+          //   { src: "/renr-responsive.png" },
+          // ]
+        }
       />
     </>
   );
